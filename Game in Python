@@ -1,0 +1,41 @@
+import random
+list_2=['ROCK','PAPER','SCISSOR']
+comp=random.choice(list_2)
+
+player = False
+while player==False:
+    player=input('choose ROCK, PAPER, SCISSORS')
+    if player==comp:
+        print('TIE!!')
+    elif player=='ROCK':
+              if comp=='PAPER':
+               print('you  L O S E!')
+              else:
+                     print('you W I N!')
+    elif player=='PAPER':
+              if comp=='SCISSORS':
+               print('you  L O S E!')
+              else:
+                     print('you W I N!')
+    elif player=='SCISSORS':
+              if comp=='ROCK':
+               print('you  L O S E!')
+              else:
+                     print('you W I N!')
+    else:
+         print('not vaild play')
+    player = False
+      
+
+ 
+
+          
+
+
+        
+        
+
+
+
+
+    
